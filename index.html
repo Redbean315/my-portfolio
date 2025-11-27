@@ -1,0 +1,253 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Redbean Production</title>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <ul>
+            <img src="assets/images/5.png" alt="Gallery Image" width="232.2px" height="104px">
+            <li><a href="javascript:void(0)" onclick="document.getElementById('aboutPopup').style.display='block'">About
+                    Us</a></li>
+            <li><a href="javascript:void(0)"
+                    onclick="document.getElementById('schoolPopup').style.display='block'">Services</a></li>
+            <li><a href="javascript:void(0)"
+                    onclick="document.getElementById('skillsPopup').style.display='block'">Team</a></li>
+            <li><a href="javascript:void(0)"
+                    onclick="document.getElementById('contactPopup').style.display='block'">Info</a></li>
+        </ul>
+
+    </div>
+
+    <div id="aboutPopup" class="modal">
+
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('aboutPopup').style.display='none'">&times;</span>
+            <h3>Redbean Production</h3>
+            <p><br><br>Redbean Production is a creative hub dedicated to producing high-quality animated films, graphic design, 
+                and motion graphics. We believe in the power of storytelling and visuals to capture attention, inspire 
+                emotion, and communicate ideas in meaningful ways. With a focus on creativity and innovation, we craft 
+                unique content that blends artistry with professional execution.
+                <br><br><br>
+                Our goal is to transform concepts into engaging visual experiences that resonate with audiences. Whether
+                 it’s a compelling animated story, a striking graphic design, or dynamic motion graphics, Redbean Production
+                  strives to deliver projects that leave a lasting impact. We are passionate about pushing creative boundaries
+                   and bringing visions to life through design and animation.
+            </p>
+        </div>
+
+    </div>
+
+    <div id="schoolPopup" class="modal">
+
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('schoolPopup').style.display='none'">&times;</span>
+            <h3>Services</h3>
+            <p class="two-columns"><br><br>Animation & Film Production:<br><br>
+
+*2D and 3D Animated Films<br>
+*Short Animated Videos<br>
+*Character Animation<br>
+*Storyboarding & Concept Development<br>
+<br><br>
+Graphic Design:
+<br><br>
+*Logo & Branding Design<br>
+*Poster & Print Design<br>
+*Social Media Graphics<br>
+*Infographics<br>
+<br><br><br><br>
+Motion Graphics:
+<br><br>
+*Animated Explainer Videos<br>
+*Title Sequences & Intros<br>
+*Product/Service Animation Ads<br>
+*Visual Effects (VFX)<br>
+<br><br>
+Typography & Layout:
+<br><br>
+*Creative Typography Design<br>
+*Book, Magazine, and Brochure Layout<br>
+*Editorial Design<br>
+*Digital and Print Publication Layouts<br>
+<br><br>
+
+            </p>
+        </div>
+
+    </div>
+
+    <div id="skillsPopup" class="modal">
+
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('skillsPopup').style.display='none'">&times;</span>
+            <h3>Team</h3>
+            <p><br><br>Creative Director
+                <br><br>
+Animator
+<br><br>
+Graphic Designer
+<br><br>
+Motion Graphics Artist
+<br><br>
+Typography & Layout Designer 
+Video Editor/Compositor
+<br><br>
+Production Manager
+
+            </p>
+        </div>
+
+    </div>
+
+    <div id="contactPopup" class="modal">
+
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('contactPopup').style.display='none'">&times;</span>
+            <h3>Info</h3>
+            <p><br>Name: Redbean Production<br><br>
+                Contact: 09454978820 (Globe)<br><br>
+                Address: Purok 2 Lucero Compound Macabling, Santa Rosa City, Laguna, South Luzon, 4026<br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="me" id="me">
+            <div><img src="assets/images/1.jpg" alt="Gallery Image" class="circle" width="450" height="450" >
+                <div>
+                    <h2>Redbean</h2>
+                    <h4>Owner</h4>
+                </div>
+
+            </div>
+
+            <div class="gallery" id="gallery">
+
+                <div class="item-container">
+
+                    <div class="gallery-item" onclick="showPage('design1')">
+                       <video muted loop>
+                        <source src="assets/videos/v1.mp4" type="video/mp4">
+                              Your browser does not support video.
+                         </video>
+                        <div class="desc">3D Animation</div>
+                        </div>
+
+                    <div class="gallery-item" onclick="showPage('design2')">
+                      <video muted loop>
+                        <source src="assets/videos/v2.mp4" type="video/mp4">
+                              Your browser does not support video.
+                         </video>
+                        <div class="desc">Motion Graphics</div>
+                        </div>
+
+                        </div>
+
+                <div class="item-container">
+
+                    <div class="gallery-item" onclick="showPage('design3')">
+                        <img src="assets/images/i3.png" alt="Gallery Image">
+                        <div class="desc">Typography & Layout</div>
+                    </div>
+
+                    <div class="gallery-item" onclick="showPage('design4')">
+                        <img src="assets/images/4.png" alt="Gallery Image">
+                        <div class="desc">3D Modeling</div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div id="design1" class="page">
+                
+                    <div class="scroll-container">
+
+  <video width="352" height="198" controls>
+  <source src="assets/videos/v1-1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+ <video width="352" height="198" controls>
+  <source src="assets/videos/v1-2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
+</div>
+
+<br>
+                <button class="back-btn" onclick="backToGallery()">Back</button>
+            </div>
+
+            <div id="design2" class="page">
+               <div class="scroll-container">
+
+  <video width="352" height="198" controls>
+  <source src="assets/videos/v2-1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+ <video width="352" height="198" controls>
+  <source src="assets/videos/v2-2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video width="352" height="198" controls>
+  <source src="assets/videos/v2-3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+</div>
+<br>
+                <button class="back-btn" onclick="backToGallery()">Back</button>
+            </div>
+
+            <div id="design3" class="page">
+                <div class="scroll-container">
+<img src="assets/images/i3-1.jpg" alt="Gallery Image" width="153" height="196">
+<img src="assets/images/i3-2.png" alt="Gallery Image" width="153" height="196">
+<img src="assets/images/i3-3.png" alt="Gallery Image" width="153" height="196">
+<img src="assets/images/i3-4.jpg" alt="Gallery Image" width="250" height="196">
+<img src="assets/images/i3-5.jpg" alt="Gallery Image" width="250" height="196">
+<img src="assets/images/i3-6.png" alt="Gallery Image" width="196" height="196">
+                </div>
+               <br>
+                <button class="back-btn" onclick="backToGallery()">Back</button>
+            </div>
+
+
+            <div id="design4" class="page">
+                <div class="scroll-container">
+<img src="assets/images/i4-1.png" alt="Gallery Image" width="352" height="198">
+<img src="assets/images/i4-2.png" alt="Gallery Image" width="352" height="198">
+                </div>
+               <br>
+                <button class="back-btn" onclick="backToGallery()">Back</button>
+            </div>
+
+
+            <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
